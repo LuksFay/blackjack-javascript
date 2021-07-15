@@ -80,6 +80,8 @@ const turnoSkynet = (puntosMinimos) => {
         alert('Skynet Gana');
     }
     },1000);
+    btnPedir.disabled=true;
+    btnDetener.desabled=true;
 }
 
 //Elementos
