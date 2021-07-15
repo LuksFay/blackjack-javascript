@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2f4f30;
+    color:#ffffff
+}
+.titulo{
+    text-align: center;
+    background-color: #000;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 25px;
+}
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+#skynet-cartas, #jugador-cartas{
+    height: 240px;
+}

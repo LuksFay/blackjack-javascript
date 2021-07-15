@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <title>BlackJack by LuksFay</title>
+</head>
+<body>
+    <header class="titulo">
+        BlackJack
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnPedir" class="btn btn-primary">Pedir Carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas">
+               <!-- <img class="carta"src="assets/cartas/3H.png" alt=""> -->
+            </div>
+        </div>
+
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Skynet - <small>0</small></h1>
+            <div id="skynet-cartas">
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/JS/underscore-min.js"></script>
+    <script src="assets/JS/juego.js"></script>
+    
+</body>
+</html>
